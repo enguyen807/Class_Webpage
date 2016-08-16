@@ -1,0 +1,126 @@
+/*
+	Created by: Eric Nguyen
+	Date:		April 18, 2011
+	Description: The design template of the index.html etc.
+*/
+
+/*
+div.wrap 	{width:720px;
+		max-height:400px;
+		min-height:330px;
+		margin: 0px auto;
+		background: #FFFFFF;
+		opacity:0.9;
+		border: solid black .7em;
+		border-radius: 6.5em 6em;
+		-moz-border-radius: 6.5em 6em;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;}
+	*/	 
+
+div.size	{font-size:36px; 
+		color: black;
+		font-family: Algerian, Pristina, Helvetica;
+		letter-spacing: 5px}
+		
+a 		{color:black; 
+		 text-decoration: none;}
+		 
+a:hover		{color: #FF6600;}
+		 
+div.size1	{font-size: 36px;
+		 color: black;
+		 font-family: Algerian, Pristina, Helvetica;
+		 letter-spacing: 2px;
+		 text-align: center;
+			}
+
+address 	{text-align: center;
+		 color:#FFFFFF ;
+		font-family: Algerian;
+		 font-size: 16px;}
+		 
+hr		{
+		height: 10px;
+		color:#1EBE39;
+		background-color:#1EBE39;
+		opacity:1px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		}
+		
+.hr1 {width: 550px; col}	
+.hr2 {width: 50px}	
+		 
+#picfloat 	{float: right;}
+#picfloat2 	{float: left;}
+
+div.test 	{font-family: Pristina;
+		font-size: 20px;
+		line-height: 150%;
+		height: 450px;
+		width: 500px;
+		overflow:auto;
+		overflow-x: hidden;
+		padding: 5px;
+		text-indent: 27px;
+		letter-spacing: 2px;
+		border-left:5px solid green;
+		border-radius: 5px;}
+		
+body 		{overflow:hidden;
+		text-align:center;}
+
+table.center 	{margin-left:auto;
+		margin-right:auto;}
+
+.indent1	{text-indent: 30px;}
+.indent2	{text-indent: 70px;}
+.indent3	{text-indent: 120px;}
+
+#hr1 		{border:groove;}
+
+#wrap 		{
+	width:550px;
+	height:auto;
+	margin: 0px auto;
+	background: #FFFFFF;
+	opacity:0.9;
+	border: solid black .9em ;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	/*border-top-left-radius:6em;
+	border-top-right-radius:6em;
+	border-bottom-left-radius:6em;
+	border-bottom-right-radius:6em; */
+}
+
+tr.main-size	{
+	height: 250px;
+	line-height: 13px;
+}
+
+.box 		{border-radius:10px;
+		padding: 5px 0px;
+		width: 517px;}
+
+#designA	{list-style-type:upper-roman;}
+#designB	{list-style-type:square;}
+#designT	{border-style:outset;
+		border-color: green;
+		border-width: 10px;
+		text-align:center;
+		width:490px;
+		height:250px;
+		font-size: 14px;}
+#designTD	{border-right-color: green;
+		border-right-style: solid;
+		border-bottom-color: #FFD300;
+		border-bottom-style: dotted;}
+
+a.astyle	{color:white}
